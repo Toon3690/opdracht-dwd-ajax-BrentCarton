@@ -1,6 +1,7 @@
 a{
     text-decoration: none;
     color: black;
+    font-size: 28px
 }
 .search-container{
     text-align: center;
@@ -13,15 +14,30 @@ body{
     font-family: Arial;
 }
 h1{
-    background-color: lightslategray;
+    background-color: #42687C;
     margin-bottom: 0;
     padding: 10px;
 }
-h3,p,h2{
+h3,p,h2,h4,h5{
     background-color: lightgray;
     margin: 0;
     padding: 10px;
 }
-h1,h3,p,h2{
+h1,h3,p,h2,h4,h5{
     border-style: solid;
+}
+p{
+    margin-bottom: 20px;
+    font-size: 14px
+}
+h2{
+    background-color: slategray;
+    margin-top: 20px
+}
+h3{
+    font-size: 24px;
+}
+h4{
+    font-size 18px;
+    margin-top: 10px;
 }
