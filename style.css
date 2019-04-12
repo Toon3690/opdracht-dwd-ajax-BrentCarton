@@ -1,0 +1,27 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+.search-container{
+    text-align: center;
+    margin-top: 5vh;
+}
+input, button{
+    padding: 10px;
+}
+body{
+    font-family: Arial;
+}
+h1{
+    background-color: lightslategray;
+    margin-bottom: 0;
+    padding: 10px;
+}
+h3,p,h2{
+    background-color: lightgray;
+    margin: 0;
+    padding: 10px;
+}
+h1,h3,p,h2{
+    border-style: solid;
+}
