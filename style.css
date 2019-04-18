@@ -4,8 +4,16 @@ a{
     font-size: 28px
 }
 .search-container{
-    text-align: center;
+    float: left;
     margin-top: 5vh;
+}
+#watchlist{
+    float: right;
+    margin-top: 5vh;
+}
+.serieInfo{
+    float: left;
+    text-align: left;
 }
 input, button{
     padding: 10px;
