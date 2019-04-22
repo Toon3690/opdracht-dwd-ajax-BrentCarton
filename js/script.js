@@ -1,7 +1,8 @@
 $(function () {
     console.log('linked!');
     $("a").preventDefault;
-    var watchlist = false;
+    var watchlist = true;
+    var watchlistContent;
     //Zoekt de series
     $("input").on("keyup", function () {
         $(".serieInfo").text("");
@@ -63,6 +64,8 @@ $(function () {
                             $("h4").on("click",function (){
                                 console.log(serieNaam);
                                 $(".watchlist").append("<h4>"+serieNaam+"</h4><h5>"+data.name+"</h5><p>"+$(this).text()+"</p>");
+                                watchlistContent = $(".watchlist").html();
+                                console.log(watchlistContent);
                             });
 
                         }).fail(function (a,b) {
